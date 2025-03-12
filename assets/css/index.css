@@ -1,0 +1,106 @@
+:root {
+    --main-color: #006D66;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* =====header===== */
+header {
+    background-image: url('../img/bg\ hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    display: grid;
+    place-content: center;
+
+}
+
+.logo img {
+    margin: 0 auto;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.content {
+    padding: 0px 50px;
+}
+
+.text-content h1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+.text-content span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.option-link {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+
+.option-link div {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-block: 10px;
+    transition: all 0.5s;
+}
+
+.option-link div:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.option-link a {
+    color: var(--main-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+}
+.option-link a:hover {
+    color: aliceblue;
+}
+
+.option-link a span {
+    font-size: 50px;
+}
+.option-link a span:first-child {
+    margin-left:10px ;
+}
+
+@media(max-width:1023px) {
+    .option-link a span {
+        font-size: 30px;
+    }
+
+    .text-content h1 {
+        font-size: 20px;
+    }
+
+    .text-content span {
+        font-size: 12px;
+    }
+}
