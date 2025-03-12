@@ -37,7 +37,7 @@ section {
 /* =====hero-section =====*/
 header {
     padding-block-end: 50px;
-    background-image: url('/assets/img/bg\ hero.jpeg');
+    background-image: url('assets/img/bg\ hero.jpeg');
     background-size: cover;
     background-position: center center;
 }
